@@ -855,11 +855,27 @@ a {
 }
 
 .link-block-3 {
+  position: static;
+  left: 32px;
+  top: auto;
+  right: auto;
+  bottom: 32px;
+  margin-right: 8px;
+}
+
+.div-block-9 {
   position: absolute;
   left: 32px;
   top: auto;
   right: auto;
   bottom: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 html.w-mod-js *[data-ix="appearlate"] {
@@ -1393,6 +1409,13 @@ html.w-mod-js *[data-ix="appearlate-2"] {
     left: auto;
     bottom: 0px;
     margin-left: auto;
+  }
+
+  .div-block-9 {
+    position: relative;
+    left: 0px;
+    top: 16px;
+    bottom: 0px;
   }
 }
 
